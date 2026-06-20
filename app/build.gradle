@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.yanjia.studentreflect'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.yanjia.studentreflect.v9quality'
+        minSdk 23
+        targetSdk 35
+        versionCode 90
+        versionName '9.0-quality-low-input'
+    }
+}
